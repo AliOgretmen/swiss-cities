@@ -1,0 +1,19 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.city-header{
+    border: 2px solid red;
+    background: gray;
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+}
+    
+
+.city-list{
+    border: 2px solid gray;
+    background: palevioletred;
+    width: 200px;
+}

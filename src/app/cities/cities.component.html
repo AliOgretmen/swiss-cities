@@ -1,0 +1,11 @@
+<div class="wrapper">
+  <div class="city-header">
+    <p>Switzerland Cities</p>
+  </div>
+  <div class="city-list">
+    <ul *ngFor="let city of cities">
+      <li><a routerLink="[]">{{city}}</a></li>
+    </ul>
+  </div>
+  <router-outlet></router-outlet>
+</div>
